@@ -55,6 +55,7 @@ Servers should ignore this header if it contains any other value.
   - : The request is a [CORS protocol](/en-US/docs/Web/HTTP/CORS) request.
 - `navigate`
   - : The request is initiated by navigation between HTML documents.
+- `nested-navigate`
 - `no-cors`
   - : The request is a no-cors request (see [`Request.mode`](/en-US/docs/Web/API/Request/mode#value)).
 - `same-origin`
